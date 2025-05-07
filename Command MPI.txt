@@ -1,0 +1,17 @@
+Go to extracted folder of MPI
+In it go to bin and copy the path
+Go to environment variable and change the path:
+In it go to user variable and click on path and then new
+Give Variable name as:MPJ_HOME 
+Variable value:Path upto the version not bin
+
+Go to System Variable and there new path double click and again new then give the name as %MPJ_HOME%\bin
+
+Write the code
+Go to the bin again and check for mpjrun file and copy its path
+Go to the lib file and their check the mpj file and copy its path
+
+Go to terminal and first command
+javac -cp .;"C:\Users\sayal\Desktop\MPI\mpj-v0_44\lib\mpj.jar" ArrSum.java 
+
+2."C:\Users\sayal\Desktop\MPI\mpj-v0_44\bin\mpjrun.bat"
